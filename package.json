@@ -1,13 +1,14 @@
 {
   "name": "excel-bond-bridge",
-  "version": "1.0.0",
-  "description": "Excel Online bridge for institutional-grade bond calculations",
+  "version": "1.0.1",
+  "description": "Excel Online bridge for institutional-grade bond calculations - Fixed version with enhanced error handling",
   "main": "api/bond.js",
   "scripts": {
     "dev": "vercel dev",
-    "deploy": "vercel"
+    "deploy": "vercel --prod"
   },
-  "dependencies": {
-    "node-fetch": "^3.3.2"
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
